@@ -6,7 +6,9 @@ $app = new Application();
 
 $app->get('/', function($req, $res) {
     $res->json([
-        'title'=>'Server side for SUSUMO API (Back-end).'
+        'title'=>'Kiichi PHP',
+        'description'=>'Simple Framework PHP for developing CRUD with HTTP routes.',
+        'github'=>'https://github.com/devvime/kiichi-php'
     ]);
 });
 
